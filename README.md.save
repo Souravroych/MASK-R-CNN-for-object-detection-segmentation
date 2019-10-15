@@ -186,6 +186,10 @@ If you use Docker, the code has been verified to work on
    ```
 3. Run setup from the repository root directory
     ```bash
+bash
+   pip3 install -r requirements.txt
+bash
+   pip3 install -r requirements.txt
     python3 setup.py install
     ``` 
 3. Download pre-trained COCO weights (mask_rcnn_coco.h5) from the [releases page](https://github.com/matterport/Mask_RCNN/releases).
